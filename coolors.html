@@ -1,43 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weekly Assignment</title>
-    <link rel="stylesheet" href="coolors.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coolors Clone</title>
+  <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-    <header style="background-color: red;">
-        <div class="logo">
-            <img src="./Asset/logo.svg" alt="">
-        </div>
-        <div class="links">
-            <a href="">TOOLS</a>
-            <a href="" class="gp">GO PRO</a>
-            <div class="btn">
-            <button class="signin">SIGN IN</button>
-            <button class="signup">SIGN UP</button>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="left">
-            <div class="text">
-                <h1> The super fast color palettes generator!</h1>
-                <p>Create the perfect palette or get inspired by thousands of beautiful color schemes.</p>
-                <button>Start the generator</button>
-                <button>Explore trending palettes</button>
-                <button>
-                    <img src="./Asset/top-post-badge.svg" alt=""> 
-                </button>
-            </div>
-            <div class="colors">
-                <img src="./Asset/homepage_hero_palettes.png" alt="" style="width: 40vw; height: 50vh; border: 8px solid black;">
-            <div>
-                <img src="./Asset/homepage_hero_palettes (1).png" alt="" style="width: 25vw; height: 35vh;">
-            </div>
-            </div>
-        </div>
-    </main>
+  <header>
+    <div class="logo">
+        <img src="./assest/logo.svg" alt="">
+    </div>
+    <nav>
+      <a href="#">Tools</a>
+      <a href="#" class="pro">Go Pro</a>
+      <a href="#">Sign in</a>
+      <button class="signup">Sign up</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>The super fast <br> color palettes <br> generator!</h1>
+      <p>Create the perfect palette or get inspired by thousands of beautiful color schemes.</p>
+      <!-- <div class="btn"> -->
+        <button class="primary-btn">Start the generator!</button>
+        <button class="secondary-btn">Explore trending palettes</button>
+      <!-- </div> -->
+      <div class="product-hunt">🏆 #1 Product of the Month</div>
+    </div>
+    <div class="hero-image">
+      <img src="./assest/homepage_hero_palettes.png" alt="color palette grid" style="width: 100%; height: 50vh; border: 8px solid black; border-right: 0; border-radius: 12px;" />
+      <div class="heroimage">
+        <img src="./assest/homepage_hero_palettes (1).png" alt="color palette grid" style="width: 50%; height: 30vh; border: 8px solid black; border-radius: 13px;" />
+      </div>
+    </div>
+  </section>
+
+  <section class="apps">
+    <div class="app-card">
+      <img src="https://img.icons8.com/ios-filled/50/apple-logo.png" alt="iOS" />
+      <h3>iOS App</h3>
+      <p>Create, browse and save palettes on the go.</p>
+    </div>
+    <div class="app-card">
+      <img src="https://img.icons8.com/android/50/android.png" alt="Android" />
+      <h3>Android App</h3>
+      <p>Thousands of palettes in your pocket.</p>
+    </div>
+    <div class="app-card">
+      <img src="https://img.icons8.com/ios-filled/50/figma.png" alt="Figma" />
+      <h3>Figma Plugin</h3>
+      <p>All palettes right in your workspace.</p>
+    </div>
+    <div class="app-card">
+      <img src="https://img.icons8.com/ios-filled/50/chrome.png" alt="Chrome" />
+      <h3>Chrome Extension</h3>
+      <p>Get and edit a palette every new tab.</p>
+    </div>
+    <div class="app-card">
+      <img src="https://img.icons8.com/ios-filled/50/adobe.png" alt="Adobe" />
+      <h3>Adobe Extension</h3>
+      <p>Use Coolors with your favorite tools.</p>
+    </div>
+  </section>
+
+  <section class="trusted">
+    <h2>Used by 5+ million creatives</h2>
+    <p>From freelancers to the world’s leading brands</p>
+    <div class="logos">
+      <img src="https://img.icons8.com/ios-filled/50/adobe.png" alt="Adobe" />
+      <img src="https://img.icons8.com/ios-filled/50/figma.png" alt="Figma" />
+      <img src="https://img.icons8.com/ios-filled/50/microsoft.png" alt="Microsoft" />
+      <img src="https://img.icons8.com/ios-filled/50/google-logo.png" alt="Google" />
+      <img src="https://img.icons8.com/ios-filled/50/spotify.png" alt="Spotify" />
+    </div>
+  </section>
 </body>
 </html>
